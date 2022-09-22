@@ -29,6 +29,37 @@ body {
   right: 160px;
 }
 
+.songs-list {
+  list-style-type: none;
+  border: 1px solid black;
+  padding: 40px 40px 40px;
+}
+
+.song {
+  position: relative;
+  border: 1px solid gray;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.song-img {
+  width: 100px;
+  margin: 0 40px 0 0;
+}
+
+.song-title, .song-band {
+  display: inline-block;
+  position: absolute;
+}
+
+.song-title {
+  bottom: 50px;
+}
+
+.song-band {
+  bottom: 10px;
+}
+
 .player-controller {
   border: 1px solid black;
   list-style-type: none;
