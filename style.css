@@ -3,14 +3,24 @@ body {
   margin: 0 auto;
 }
 
+.box-playlist {
+  position: relative;
+}
+
 .playlist-img {
   border-radius: 5px;
 }
 
 .playlist-title {
   display: inline;
+  position: absolute;
+  bottom: 100px;
+  right: 360px;
 }
 
 .playlist-desc {
   display: inline;
+  position: absolute;
+  bottom: 30px;
+  right: 160px;
 }
