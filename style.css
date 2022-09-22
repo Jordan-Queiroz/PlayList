@@ -40,3 +40,7 @@ body {
   display: inline-block;
   margin: 0px 20px;
 }
+
+.previous-button, .play-button, .next-button {
+  border-radius: 50%;
+}
