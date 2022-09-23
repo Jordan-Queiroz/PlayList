@@ -15,6 +15,11 @@ body {
 .playlist-img {
   border-radius: 5px;
   box-shadow: 5px 5px 10px black;
+  transition: 1s all;
+}
+
+.playlist-img:hover {
+  transform: scale(1.05);
 }
 
 .playlist-title {
@@ -64,7 +69,6 @@ body {
 }
 
 .player-controller {
-  border: 1px solid black;
   list-style-type: none;
   text-align: center;
   padding: 10px 40px 10px;
@@ -79,10 +83,28 @@ body {
 /* Google Icons */
 .material-symbols-outlined {
   color: #e6e6e6;
+  border-radius: 50%;
+  transition: 1s all;
   font-size: 50px;
   font-variation-settings:
   'FILL' 0,
   'wght' 400,
   'GRAD' 0,
   'opsz' 48
+}
+
+.material-symbols-outlined:hover {
+  transform: scale(1.50);
+  box-shadow: 0 0 20px #8B4000;
+  cursor: pointer;
+}
+
+.material-symbols-outlined:active {
+  box-shadow: 0 0 20px orange;
+  cursor: pointer;
+}
+
+.skip_previous, .skip_next {
+  font-size: 40px;
+  vertical-align: center ;
 }
