@@ -65,6 +65,7 @@ body {
   list-style-type: none;
   text-align: center;
   padding: 10px 40px 10px;
+  background: #1a1a1a;
 }
 
 .player-controller li {
@@ -74,4 +75,15 @@ body {
 
 .previous-button, .play-button, .next-button {
   border-radius: 50%;
+}
+
+/* Google Icons */
+.material-symbols-outlined {
+  color: white;
+  font-size: 50px;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
 }
