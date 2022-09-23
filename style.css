@@ -2,6 +2,7 @@ body {
   width: 1000px;
   margin: 0 auto;
   background: #0d0d0d;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 .box-playlist {
