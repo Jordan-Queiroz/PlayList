@@ -45,9 +45,18 @@ body {
 
 .song {
   position: relative;
-  border: 1px solid gray;
+  border: 0px;
+  background: #262626;
   padding: 10px;
   border-radius: 5px;
+  margin: 10px 0;
+  transition: 1s all;
+}
+
+.song:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px #8B4000;
+  cursor: pointer;
 }
 
 .song-img {
@@ -99,9 +108,8 @@ body {
   cursor: pointer;
 }
 
-.material-symbols-outlined:active {
+.material-symbols-outlined:active, .song:active {
   box-shadow: 0 0 20px orange;
-  cursor: pointer;
 }
 
 .skip_previous, .skip_next {
