@@ -73,10 +73,6 @@ body {
   margin: 0px 20px;
 }
 
-.previous-button, .play-button, .next-button {
-  border-radius: 50%;
-}
-
 /* Google Icons */
 .material-symbols-outlined {
   color: white;
