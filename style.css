@@ -7,7 +7,6 @@ body {
 
 .box-playlist {
   position: relative;
-  border: 1px solid black;
   padding: 10px;
   background: #1a1a1a;
   color: #e6e6e6;
@@ -39,7 +38,6 @@ body {
 
 .songs-list {
   list-style-type: none;
-  border: 1px solid black;
   padding: 40px 40px 40px;
   color: #e6e6e6;
 }
