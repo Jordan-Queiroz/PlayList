@@ -10,6 +10,7 @@ body {
   padding: 10px;
   background: #1a1a1a;
   color: #e6e6e6;
+  box-shadow: 0 5px 5px 0 black;
 }
 
 .playlist-img {
@@ -38,7 +39,7 @@ body {
 
 .songs-list {
   list-style-type: none;
-  padding: 40px 40px 40px;
+  padding: 0 0;
   color: #e6e6e6;
 }
 
@@ -81,6 +82,7 @@ body {
   text-align: center;
   padding: 10px 40px 10px;
   background: #1a1a1a;
+  box-shadow: 0 -5px 5px 0 black;
 }
 
 .player-controller li {
