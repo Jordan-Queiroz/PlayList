@@ -72,11 +72,13 @@ body {
 }
 
 .song-title {
-  bottom: 50px;
+  bottom: 70px;
+  font-size: 20px;
 }
 
 .song-band {
-  bottom: 10px;
+  bottom: 30px;
+  font-size: 15px;
 }
 
 .player-controller {
