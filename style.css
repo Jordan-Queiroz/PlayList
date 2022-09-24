@@ -1,11 +1,11 @@
 body {
-  width: 1000px;
-  margin: 0 auto;
   background: #0d0d0d;
   font-family: 'Josefin Sans', sans-serif;
 }
 
 .box-playlist {
+  margin: 0 auto;
+  width: 1000px;
   position: relative;
   padding: 10px;
   background: #1a1a1a;
@@ -39,17 +39,17 @@ body {
 
 .songs-list {
   list-style-type: none;
-  padding: 0 0;
   color: #e6e6e6;
 }
 
 .song {
-  position: relative;
+  margin: 10px auto;
+  width: 1000px;
   border: 0px;
+  position: relative;
   background: #262626;
   padding: 10px;
   border-radius: 5px;
-  margin: 10px 0;
   transition: 1s all;
 }
 
@@ -78,9 +78,11 @@ body {
 }
 
 .player-controller {
+  margin: 0 auto;
+  width: 1000px;
   list-style-type: none;
   text-align: center;
-  padding: 10px 40px 10px;
+  padding: 10px 10px;
   background: #1a1a1a;
   box-shadow: 0 -5px 5px 0 black;
 }
@@ -116,4 +118,18 @@ body {
 .skip_previous, .skip_next {
   font-size: 40px;
   vertical-align: center ;
+}
+
+@media screen and (max-width: 480px) {
+  .box-playlist {
+    width: 100%;
+  }
+
+  .song {
+    width: 100%;
+  }
+
+  .player-controller {
+    width: 100%;
+  }
 }
