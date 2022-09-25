@@ -127,6 +127,19 @@ body {
 @media screen and (max-width: 480px) {
   .box-playlist {
     width: 100%;
+    text-align: center;
+    position: static;
+  }
+
+  .playlist-title {
+    display: block;
+    position: static;
+    margin: 20px 0;
+  }
+  
+  .playlist-desc {
+    display: block;
+    position: static;
   }
 
   .song {
